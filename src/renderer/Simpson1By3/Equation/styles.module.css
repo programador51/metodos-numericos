@@ -1,0 +1,8 @@
+.calculation {
+  display: flex;
+  align-items: center;
+}
+
+.calculation > span:nth-child(1) {
+  margin: 0 10px 0 0;
+}

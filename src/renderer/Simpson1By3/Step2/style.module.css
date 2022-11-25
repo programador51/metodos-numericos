@@ -1,0 +1,7 @@
+.result > :last-child {
+  color: rgb(219, 58, 58);
+  border: 2px solid rgb(219, 58, 58);
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+}

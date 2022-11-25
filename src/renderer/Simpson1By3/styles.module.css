@@ -1,0 +1,58 @@
+.input {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 10px 0;
+}
+
+.containerSimpson1By3 {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 20px;
+  box-sizing: border-box;
+  color: black;
+  grid-area: data;
+  overflow: auto;
+}
+
+.integralSymbol {
+  height: 50px;
+  object-fit: fill;
+}
+
+.containerFormula {
+  display: flex;
+  align-items: center;
+}
+
+.integralContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.integralContainer input {
+  width: 40px;
+}
+
+.uiSimpson {
+  display: grid;
+
+  box-sizing: border-box;
+  grid-template-columns: repeat(10, 10vw);
+  grid-template-rows: 80vh;
+  grid-template-areas: '. data data . res res res res res .';
+}
+
+.resolution {
+  grid-area: res;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  color: black;
+  box-sizing: border-box;
+  overflow: auto;
+  padding: 20px;
+}

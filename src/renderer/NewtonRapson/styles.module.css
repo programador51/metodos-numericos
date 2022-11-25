@@ -1,0 +1,85 @@
+.newtownRapson {
+  display: grid;
+  grid-template-columns: repeat(10, 9.8vw);
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  grid-template-areas: 'in in . res res res res res res res';
+}
+
+.resolution,
+.inputFunction {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  color: black;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.resolution {
+  grid-area: res;
+  height: 80vh;
+  font-size: 0.75rem;
+  overflow: auto;
+}
+
+.inputFunction {
+  grid-area: in;
+}
+
+.inputFunction button {
+  margin: 10px 0;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+}
+
+.input input {
+  margin: 0 0 10px 0;
+}
+
+.noDerivate {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.noDerivate * {
+  margin: 0;
+}
+
+.noDerivate p:nth-child(2) {
+  font-style: italic;
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: rgb(194, 41, 41);
+}
+
+.header,
+.row {
+  display: grid;
+  /* grid-template-columns: repeat(5, 19%); */
+  grid-template-columns: 10% 10% 40% 40%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  margin: 0 0 10px 0;
+}
+
+.header {
+  font-weight: bold;
+}
+
+.result > :last-child {
+  color: rgb(207, 42, 42);
+  font-weight: bold;
+  border: 2px solid rgb(207, 42, 42);
+  padding: 5px;
+  border-radius: 5px;
+}
